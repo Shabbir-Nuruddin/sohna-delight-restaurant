@@ -1,0 +1,125 @@
+import "@fontsource/barlow-condensed/600.css";
+import "@fontsource/barlow-condensed/800.css";
+import type { Site } from "./lib";
+
+export const SITE: Site = {
+  name: "Sohna Delight Restaurant",
+  sub: { en: "Veg North Indian & Chinese · Near Ambedkar Chowk, Sohna", hi: "वेज नॉर्थ इंडियन और चाइनीज़ · अंबेडकर चौक के पास, सोहना" },
+  banner: { en: "Family dinner or a party? There's a party hall", hi: "फ़ैमिली डिनर या पार्टी? यहां पार्टी हॉल भी है" },
+  phone: "918059272434",
+  phoneDisplay: "+91 80592 72434",
+  lat: 28.2434044,
+  lon: 77.0713304,
+  hours: [[9, 23], [9, 23], [9, 23], [9, 23], [9, 23], [9, 23], [9, 23]],
+  theme: {
+    dark: true,
+    bg: "#120b12",
+    bg2: "#1a1019",
+    panel: "#20141f",
+    ink: "#f6eee8",
+    ink2: "#cdbfbd",
+    ink3: "#8f8189",
+    line: "#33232f",
+    accent: "#ff8a4c",
+    onAccent: "#2a0e00",
+    display: "Barlow Condensed",
+    weight: 800,
+    upper: true,
+  },
+  scene: "pour",
+  align: "right",
+  hero: {
+    title: [
+      { en: "Soft tandoor rotis,", hi: "नरम तंदूरी रोटी," },
+      { en: "right on the highway.", hi: "हाईवे पर ही।" },
+    ],
+    proof: {
+      en: "242 five-star reviews on Google. Paneer butter masala, dal makhni and missi roti, with a party hall, near Dr. Ambedkar Chowk, Sohna.",
+      hi: "गूगल पर 242 पांच स्टार रिव्यू। पनीर बटर मसाला, दाल मखनी और मिस्सी रोटी, पार्टी हॉल के साथ, डॉ. अंबेडकर चौक के पास, सोहना।",
+    },
+    fallback: "/img/p3.jpg",
+  },
+  marquee: ["Paneer Butter Masala", "Dal Makhni", "Missi Roti", "Butter Roti", "Samosa", "Veg Biryani", "Chinese", "Party Hall"],
+  dishes: {
+    title: { en: "What guests keep ordering", hi: "मेहमान बार-बार क्या मंगाते हैं" },
+    body: { en: "Every line is a real Google review.", hi: "हर लाइन असली गूगल रिव्यू है।" },
+    layout: "cards",
+    items: [
+      { name: { en: "Paneer Butter Masala", hi: "पनीर बटर मसाला" }, quote: "I loved the Paneer Butter Masala. Also the breads tandoor butter roti was very soft", img: "/img/p3.jpg" },
+      { name: { en: "Dal Makhni & Missi Roti", hi: "दाल मखनी और मिस्सी रोटी" }, quote: "Dal Makhni,Paneer was amazing, Messi Roti was so soft ." },
+      { name: { en: "Tandoori Roti", hi: "तंदूरी रोटी" }, quote: "tandoori rotis were prepared very nicely , they compliment their orders with vinegar onion and those are yummy too." },
+      { name: { en: "Samosa & Paneer", hi: "समोसा और पनीर" }, quote: "Ordered samosa and paneer. Both were awesome." },
+    ],
+  },
+  gallery: {
+    title: { en: "On the highway, lit up", hi: "हाईवे पर, रोशनी में" },
+    layout: "strip",
+    photos: [
+      { src: "/img/p4.jpg", alt: "Sohna Delight Restaurant at night" },
+      { src: "/img/p6.jpg", alt: "Starter platter" },
+      { src: "/img/p9.jpg", alt: "Bowl of food" },
+      { src: "/img/p13.jpg", alt: "Biryani with raita" },
+      { src: "/img/p5.jpg", alt: "Restaurant signboard" },
+    ],
+  },
+  feature: {
+    kind: "occasions",
+    title: { en: "Family dinners and parties", hi: "फ़ैमिली डिनर और पार्टियां" },
+    body: { en: "How guests describe an evening here.", hi: "मेहमान यहां की शाम को ऐसे बताते हैं।" },
+    img: "/img/p8.jpg",
+    items: [
+      { label: { en: "Party hall", hi: "पार्टी हॉल" }, quote: "Good taste good food family restaurant  along with party hall.." },
+      { label: { en: "Family dinner", hi: "फ़ैमिली डिनर" }, quote: "Our family had dinner today in this restaurant the food was absolutely teaste.... And service also good ..." },
+      { label: { en: "Home delivery", hi: "होम डिलीवरी" }, quote: "Even if when we ordered food , they delivered with in half an hour . Affordable restaurant." },
+      { label: { en: "The place", hi: "जगह" }, quote: "Good quality food Finest restaurant in Sohna Very awesome in taste and nicely maintained place too" },
+    ],
+  },
+  reviews: {
+    title: { en: "242 guests gave five stars", hi: "242 मेहमानों ने पांच स्टार दिए" },
+    rating: 4.0,
+    dist: [242, 99, 44, 17, 49],
+    quotes: [
+      { quote: "Best place in sohna for food .staff was too good 👍.", stars: 5 },
+      { quote: "Very good 😊 restaurant Food quality is excellent", stars: 5 },
+      { quote: "Best restaurant in Sohna . My experience was really good . Food was delicious.", stars: 5 },
+    ],
+  },
+  visit: {
+    title: { en: "Near Dr. Ambedkar Chowk", hi: "डॉ. अंबेडकर चौक के पास" },
+    img: "/img/p1.jpg",
+    alt: "Sohna Delight Restaurant storefront",
+    address: { en: "On the highway near Dr. Ambedkar Chowk, Sohna", hi: "डॉ. अंबेडकर चौक के पास हाईवे पर, सोहना" },
+    note: { en: "Open 9am to 11pm, every day.", hi: "हर दिन सुबह 9 से रात 11 बजे तक।" },
+  },
+  pour: { from: "pan", into: "kadhai", liquid: "#c1501f", foam: "#e3843f", thick: 2, hot: true, butter: true },
+  story: [
+    { kicker: { en: "The paneer", hi: "पनीर" }, title: { en: "Paneer butter masala first.", hi: "पहले पनीर बटर मसाला।" }, quote: "I loved the Paneer Butter Masala. Also the breads tandoor butter roti was very soft" },
+    { kicker: { en: "The roti", hi: "रोटी" }, title: { en: "Missi roti, so soft.", hi: "मिस्सी रोटी, बहुत नरम।" }, quote: "Dal Makhni,Paneer was amazing, Messi Roti was so soft ." },
+    { kicker: { en: "The onions", hi: "प्याज़" }, title: { en: "With vinegar onion on the side.", hi: "साथ में सिरके वाला प्याज़।" }, quote: "tandoori rotis were prepared very nicely , they compliment their orders with vinegar onion and those are yummy too." },
+  ],
+  build: {
+    title: { en: "Build your order in a few taps", hi: "कुछ टैप में अपना ऑर्डर बनाइए" },
+    body: { en: "Tap the dishes guests rave about, set how many and when. It goes to WhatsApp exactly as you see it.", hi: "मेहमानों की पसंदीदा डिश टैप करें, कितने लोग और कब, चुनें। मैसेज व्हाट्सऐप पर ठीक ऐसे ही जाएगा।" },
+    pick: { label: { en: "Order", hi: "ऑर्डर" }, options: [
+      { name: { en: "Dine-in", hi: "बैठकर खाना" } },
+      { name: { en: "Delivery", hi: "डिलीवरी" } },
+      { name: { en: "Party hall", hi: "पार्टी हॉल" } },
+    ] },
+    items: [
+      { en: "Paneer Butter Masala", hi: "पनीर बटर मसाला" },
+      { en: "Dal Makhni", hi: "दाल मखनी" },
+      { en: "Missi Roti", hi: "मिस्सी रोटी" },
+      { en: "Butter Roti", hi: "बटर रोटी" },
+      { en: "Samosa", hi: "समोसा" },
+      { en: "Veg Biryani", hi: "वेज बिरयानी" },
+    ],
+    people: true,
+    when: true,
+    hello: { en: "Hi Sohna Delight, I'd like:", hi: "नमस्ते सोहना डिलाइट, मुझे चाहिए:" },
+  },
+  waHello: {
+    en: "Hi Sohna Delight Restaurant, I'd like to order. Items: , dine-in / delivery: , time: ",
+    hi: "नमस्ते सोहना डिलाइट रेस्टोरेंट, मुझे ऑर्डर देना है। आइटम: , बैठकर / डिलीवरी: , समय: ",
+  },
+  order: ["build", "dishes", "gallery", "feature", "reviews", "visit"],
+};
